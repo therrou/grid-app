@@ -29,6 +29,7 @@ export const CardGrid = ({data}) => {
         if (card.title.toLowerCase().includes(search.toLowerCase())) { 
         return card
     } 
+    return ''
     })
 
    
